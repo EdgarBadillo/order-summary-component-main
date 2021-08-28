@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/styles.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
@@ -15,7 +17,7 @@
 
   <main class="card">
 
-    <div title="card__Img">
+    <div title="cardHeader" class="card__img" >
 
     </div>
 
@@ -44,21 +46,22 @@
     <div title="sectionPlan" class="card__plan" >
 
       <img src="/images/icon-music.svg" alt="">
-      <ul>
-        <li>Anual Plan</li>
-        <li> $59.99/year </li>
-        <li>Change</li>
+      <ul  >
+        <li class="card__plan--anual" >Anual Plan</li>
+        <li class="card__plan--money"> $59.99/year </li>
       </ul>
+
+      <a class="card__plan--change"  href="">Change</a>
 
     </div>
     
-    <button>
+    <button class="card__button" >
       
       Proceed to Payment
 
     </button>
     
-    <a href="">
+    <a class="card__cancel" href="">
 
       Cancel Order
 
