@@ -82,7 +82,6 @@ body .card .card__plan {
       justify-content: space-around;
   background: #F7F9FF;
   border-radius: 11px;
-  padding-right: 2rem;
 }
 
 body .card .card__plan .card__plan--anual {
